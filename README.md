@@ -13,11 +13,11 @@ Make sure to check off your items as you complete them. [ ] → [x]
 - [ ] Add, commit, and push your changes.
 
 ## JavaScript
-- [ ] The Hide button should hide the image.
-- [ ] The Show button should show the image.
-- [ ] Using setAttribute() method, the Update Image button should update with a new ghost image. Remember, this takes multiple arguments.
-- [ ] Using insertAdjacentHTML() method, the Send Message button should add a message to the bottom of the page.
-- [ ] Using innerHTML, the Name button should update the h1 with a name for the ghost.
+- [x] The Hide button should hide the image.
+- [x] The Show button should show the image.
+- [x] Using setAttribute() method, the Update Image button should update with a new ghost image. Remember, this takes multiple arguments.
+- [x] Using insertAdjacentHTML() method, the Send Message button should add a message to the bottom of the page.
+- [x] Using innerHTML, the Name button should update the h1 with a name for the ghost.
 
 ## Wrap
 - [ ] Push your changes!

@@ -25,15 +25,15 @@ showButton.onclick = (function (){
 
 //create an onclick event for the Update Img button
 updateImg.onclick = (function (){
-  
+  ghostImg.src = "https://i.insider.com/50e4891469beddab1c000008?width=1000&format=jpeg&auto=webp";
 });
 
 
 //create an onclick event for the Send Message button
-messageButton.onclick = function (){
-   userInput = userInput.value;
+messageButton.onclick = (function (){
+  userInput = `<p>${input.value}</p>`;
   message.insertAdjacentHTML("beforeend", userInput);
-};
+});
 //update the userInput variable by saving the value of the input
 //use the insertAdjacentHTML method to append the userInput in a <p> tag
 
@@ -42,3 +42,7 @@ messageButton.onclick = function (){
 //create an onclick event for the Name Me button
 //update the userInput variable by saving the value of the input
 //use the innerHTML method to update the h1 tag
+nameButton.onclick = (function(){
+  userInput = input.value;
+  h1.innerHTML = userInput;
+});
